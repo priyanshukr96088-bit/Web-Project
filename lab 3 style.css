@@ -1,0 +1,206 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar {
+    background: #2e5dd6;
+    color: #fff;
+    padding: 18px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 35px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+    transition: 0.3s;
+}
+
+.nav-links li a:hover {
+    opacity: 0.7;
+}
+
+#second{
+    margin-left: 25px;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+#third{
+    margin-left: 25px;
+    font-size: 70px;
+    font-weight: bold;
+    margin-top: 20px;
+   
+    animation: colorAnimate 2s infinite;
+}
+@keyframes colorAnimate{
+    0%{color: red;}
+    25%{color: blue;}
+    50%{color: green;}
+    75%{color: yellow;}
+    100%{color: red;}
+}
+#home{
+    display: flex;
+    
+}
+
+#fourth{
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+#five img{
+    margin-left: 350px;
+    border-radius: 100%;
+    margin-bottom: 120px;
+    
+}
+
+#project h2{
+    font-size: 38px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+
+.projectcard{
+    display: flex;
+    justify-content: center;
+}
+
+.projectcardtwo{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#six{
+    margin-left: 25px
+}
+#seven{
+    margin-left: 25px;
+}
+
+#eight {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-top: 19px;
+    align-items: center;
+
+}
+
+.skill {
+    background: rgb(112, 112, 236);      
+    color: white;
+    width: 25%;
+    height: 79px;   
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 0px 8px 15px rgba(0,0,0,0.2);
+    transition: 0.3s;
+} 
+
+
+.skill h3 {
+    font-size: 28px;
+    margin-top: 11px;
+}
+
+
+.skill p {
+    font-size: 16px;
+}
+
+
+.skill:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px rgb(156, 36, 56); 
+}
+
+#contact{
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+.contact-box {
+    width: 350px;
+    margin: auto;
+    background: #fff;
+    padding: 18px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+.contact-box label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+.contact-box input,
+.contact-box textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #9fd6ff;
+    border-radius: 3px;
+    margin-bottom: 15px;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    background: #003c9d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+footer {
+    background: #003c9d;
+    color: #fff;
+    text-align: center;
+    margin-top: 50px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+   margin-top: 30px;
+}
+.back-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #003c9d;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
